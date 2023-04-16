@@ -86,47 +86,42 @@ internal class Program
     //    }
     //}
     //Task15 Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
-    {   string exit = "";
-        while (exit != "Q")
-        {
-        Console.WriteLine("enter a number from 1 to 7 :");
-        int enterNumber = Int32.Parse(Console.ReadLine());
-        if (enterNumber > 7 || enterNumber <1 ) {
-            Console.WriteLine("you entered a number outside the boundary" + "Ah! ah! ah!");
-        }
-            switch (enterNumber)
-            {
-                case 1:
-                    Console.WriteLine("Monday.Job day");
-                    break;
-                case 2:
-                    Console.WriteLine("Tuesday.job day");
-                    break;
-                case 3:
-                    Console.WriteLine("Wednesday.Job day");
-                    break;
-                case 4:
-                    Console.WriteLine("Thursday.Job day");
-                    break;
-                case 5:
-                    Console.WriteLine("Friday.Job day.bukhatnitsa");
-                    break;
-                case 6:
-                    Console.WriteLine("Saturday.Weeeeekend");
-                    break;
-                case 7:
-                    Console.WriteLine("Sunday.Weekend. :(");
-                    break;
-            }
-            Console.WriteLine("enter Q or will you start first");
-            exit = Console.ReadLine();
-        }
-
-    }
-
-
-
-
+    //{   string exit = "";
+    //    while (exit != "Q")
+    //    {
+    //    Console.WriteLine("enter a number from 1 to 7 :");
+    //    int enterNumber = Int32.Parse(Console.ReadLine());
+    //    if (enterNumber > 7 || enterNumber <1 ) {
+    //        Console.WriteLine("you entered a number outside the boundary" + "Ah! ah! ah!");
+    //    }
+    //        switch (enterNumber)
+    //        {
+    //            case 1:
+    //                Console.WriteLine("Monday.Job day");
+    //                break;
+    //            case 2:
+    //                Console.WriteLine("Tuesday.job day");
+    //                break;
+    //            case 3:
+    //                Console.WriteLine("Wednesday.Job day");
+    //                break;
+    //            case 4:
+    //                Console.WriteLine("Thursday.Job day");
+    //                break;
+    //            case 5:
+    //                Console.WriteLine("Friday.Job day.bukhatnitsa");
+    //                break;
+    //            case 6:
+    //                Console.WriteLine("Saturday.Weeeeekend");
+    //                break;
+    //            case 7:
+    //                Console.WriteLine("Sunday.Weekend. :(");
+    //                break;
+    //        }
+    //        Console.WriteLine("enter Q or will you start first");
+    //        exit = Console.ReadLine();
+    //    }
+    //}
 }
 
 
