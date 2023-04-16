@@ -4,7 +4,7 @@ internal class Program
 {
 
     private static void Main(string[] args)
-
+    { 
     //Task2  Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
 
     //{
@@ -41,18 +41,85 @@ internal class Program
     //    else Console.WriteLine("Нечетное");
     //}
     //Task8 Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
-    {
-        Console.WriteLine("Inter integer number");
-        int interNumber = Int32.Parse(Console.ReadLine());
-        int count = 1;
-        while (count <= interNumber)
-        {
-            if (count % 2 == 0)
-            {
-                Console.Write(count + " ");
-            }
-            count++;
-        }
+    //{
+    //    Console.WriteLine("Inter integer number");
+    //    int interNumber = Int32.Parse(Console.ReadLine());
+    //    int count = 1;
+    //    while (count <= interNumber)
+    //    {
+    //        if (count % 2 == 0)
+    //        {
+    //            Console.Write(count + " ");
+    //        }
+    //        count++;
+    //    }
+    //}
+
+    //HomeWork 2
+    //Task10 Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа
+    //{
+    //    Console.WriteLine("enter a three-digit number :");
+    //    int enterNumber = Int32.Parse(Console.ReadLine());
+    //    enterNumber = enterNumber % 100;
+    //    enterNumber = enterNumber / 10;
+    //    Console.WriteLine(enterNumber);
+    //}
+    //Task10 Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа
+    //{
+    //    Console.WriteLine("enter a three-digit number :");
+    //    int enterNumber = Int32.Parse(Console.ReadLine());
+    //    string enterThreeDigit = enterNumber.ToString();
+    //    Console.WriteLine(enterThreeDigit[1]);
+    //}
+    //Task13 Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
+    //{
+    //    Console.WriteLine("enter a number :");
+    //    int enterNumber = Int32.Parse(Console.ReadLine());
+    //    string enterString = enterNumber.ToString();
+    //    if (enterString.Length < 3)
+    //    {
+    //        Console.WriteLine("There is no third number");
+    //    }else
+    //    {
+    //        Console.WriteLine(enterString[2]);
+    //    }
+    //}
+    //Task15 Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
+    //{   string exit = "";
+    //    while (exit != "Q")
+    //    {
+    //    Console.WriteLine("enter a number from 1 to 7 :");
+    //    int enterNumber = Int32.Parse(Console.ReadLine());
+    //    if (enterNumber > 7 || enterNumber <1 ) {
+    //        Console.WriteLine("you entered a number outside the boundary" + "Ah! ah! ah!");
+    //    }
+    //        switch (enterNumber)
+    //        {
+    //            case 1:
+    //                Console.WriteLine("Monday.Job day");
+    //                break;
+    //            case 2:
+    //                Console.WriteLine("Tuesday.job day");
+    //                break;
+    //            case 3:
+    //                Console.WriteLine("Wednesday.Job day");
+    //                break;
+    //            case 4:
+    //                Console.WriteLine("Thursday.Job day");
+    //                break;
+    //            case 5:
+    //                Console.WriteLine("Friday.Job day.bukhatnitsa");
+    //                break;
+    //            case 6:
+    //                Console.WriteLine("Saturday.Weeeeekend");
+    //                break;
+    //            case 7:
+    //                Console.WriteLine("Sunday.Weekend. :(");
+    //                break;
+    //        }
+    //        Console.WriteLine("enter Q or will you start first");
+    //        exit = Console.ReadLine();
+    //    }
     }
 }
 
