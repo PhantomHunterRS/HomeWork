@@ -151,11 +151,11 @@ internal class Program
         //Console.WriteLine(distance);
 
         //Task23 Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
-        Console.WriteLine("enter the number:");
-        int firstPoint = Int32.Parse(Console.ReadLine());
-        for (int i = 1; i <=firstPoint; i++) {
-            Console.WriteLine("Number - " + i + " in a cube it is equal to " + Math.Pow(i, 3));
-        }
+        //Console.WriteLine("enter the number:");
+        //int firstPoint = Int32.Parse(Console.ReadLine());
+        //for (int i = 1; i <=firstPoint; i++) {
+        //    Console.WriteLine("Number - " + i + " in a cube it is equal to " + Math.Pow(i, 3));
+        //}
 
 
     }
